@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-		sh './testScript'
+		sh '/home/ubuntu/cicd-jekins/testScript'
             }
         }
         stage('Deploy') {
