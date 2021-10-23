@@ -1,0 +1,1 @@
+Demonstrating CI/CD with jenkins. Using a multibranch pipeline to implement CI-CD. So, the repo has trhee branches. 1st branch is "main" which is the default one used for clonning and building, 2nd is "dev" used for developing and testing, while the 3rd is "bug" used for fixing reported bugs.
