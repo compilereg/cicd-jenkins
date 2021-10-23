@@ -1,4 +1,5 @@
 #!/bin/bash
+##### Test
 if [ $# -ne 2 ]
 then
 	echo "Invalid parameters"
@@ -7,5 +8,5 @@ fi
 NUM1=${1}
 NUM2=${2}
 SUM=$[NUM1-NUM2]
-echo "Result ${SUM}"
+echo "${SUM}"
 exit 0
