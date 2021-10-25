@@ -1,6 +1,7 @@
 #!/bin/bash
-##### Test
-######   Test 1
+## The correct one
+#### After changing and updating webhook
+##### After new public jenkins
 if [ $# -ne 2 ]
 then
 	echo "Invalid parameters"
@@ -8,6 +9,6 @@ then
 fi
 NUM1=${1}
 NUM2=${2}
-SUM=$[NUM1-NUM2]
+SUM=$[NUM1+NUM2]
 echo "${SUM}"
 exit 0
