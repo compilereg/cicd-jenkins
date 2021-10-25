@@ -1,6 +1,5 @@
 #!/bin/bash
 ##### Test
-######   Test 1
 if [ $# -ne 2 ]
 then
 	echo "Invalid parameters"
