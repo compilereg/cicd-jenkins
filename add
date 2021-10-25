@@ -1,6 +1,7 @@
 #!/bin/bash
 ## The correct one
 #### After changing and updating webhook
+##### After new public jenkins
 if [ $# -ne 2 ]
 then
 	echo "Invalid parameters"
