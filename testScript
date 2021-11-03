@@ -1,5 +1,6 @@
 #!/bin/bash
 ### ADding a comment
+## Another comment
 VAL=$(./add 1 2)
 if [ ${VAL} -ne 3 ]
 then
