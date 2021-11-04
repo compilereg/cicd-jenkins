@@ -1,4 +1,10 @@
 #!/bin/bash
+<<<<<<< Updated upstream
+=======
+### ADding a comment
+## Another comment
+### Another new comment
+>>>>>>> Stashed changes
 VAL=$(./add 1 2)
 if [ ${VAL} -ne 3 ]
 then
