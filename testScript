@@ -1,16 +1,13 @@
 #!/bin/bash
-<<<<<<< Updated upstream
-=======
 ### ADding a comment
 ## Another comment
 ### Another new comment
->>>>>>> Stashed changes
 VAL=$(./add 1 2)
 if [ ${VAL} -ne 3 ]
 then
-      echo "Failed testing.."
+      echo "Failed testing...."
       exit 1
 else
-      echo "OK Testing..."
+      echo "OK Testing....."
 fi
 exit 0
